@@ -1,0 +1,13 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SeekBarPreference
+        android:key="sens_key"
+        android:title="Sensitivity"
+        android:summary="Change minimum movement required for ball throw"
+        android:max="20"
+        android:min="1"
+        android:defaultValue="0" />
+
+
+
+</PreferenceScreen>
